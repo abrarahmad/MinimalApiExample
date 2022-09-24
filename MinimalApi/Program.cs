@@ -40,5 +40,5 @@ await scope.ServiceProvider
 
 app.UseHttpsRedirection();
 app.RegisterMovieApi();
-app.RegisterMockApi();
+app.RegisterCustomerApi();
 app.Run();

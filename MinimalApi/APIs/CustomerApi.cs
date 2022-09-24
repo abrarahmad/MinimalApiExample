@@ -5,7 +5,7 @@ namespace MinimalApi.APIs
 {
     public static class CustomerApi
     {
-        public static void RegisterMockApi(this WebApplication app)
+        public static void RegisterCustomerApi(this WebApplication app)
         {
             app.MapGet("/customer/gets", async (ICustomerService customerService) =>
             {
